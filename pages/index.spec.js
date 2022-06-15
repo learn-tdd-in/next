@@ -1,6 +1,5 @@
-
 import {render, screen} from '@testing-library/react';
-import Home from './index'
+import Home from './index';
 
 describe('Home', () => {
   it('renders', () => {
@@ -9,4 +8,3 @@ describe('Home', () => {
     expect(screen.getByText('Next.js!')).toBeInTheDocument();
   });
 });
-      
