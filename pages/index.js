@@ -1,5 +1,7 @@
 import NewMessageForm from '../components/NewMessageForm';
 
 export default function Home() {
-  return <NewMessageForm />;
+  function handleSend() {}
+
+  return <NewMessageForm onSend={handleSend} />;
 }
