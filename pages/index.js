@@ -1,3 +1,5 @@
+import NewMessageForm from '../components/NewMessageForm';
+
 export default function Home() {
-  return null;
+  return <NewMessageForm />;
 }
