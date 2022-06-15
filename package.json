@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "test": "jest --watch",
+    "cypress": "cypress open",
     "lint": "next lint"
   },
   "dependencies": {
@@ -17,6 +18,7 @@
   "devDependencies": {
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^14.2.0",
+    "cypress": "^10.1.0",
     "eslint": "8.17.0",
     "eslint-config-next": "12.1.6",
     "jest": "^28.1.1",
